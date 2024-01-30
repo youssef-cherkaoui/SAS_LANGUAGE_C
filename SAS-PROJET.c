@@ -114,7 +114,7 @@ void SupprimerTache( Tache tache[], int *NB) {
         scanf("%d", &Number);
 
         if (Number < 1 || Number > *NB) {
-            printf("Invalid task number.\n");
+            printf("Numero invalide \n");
         } else {
             // Shift tasks to fill the gap
             for (int i = Number - 1; i < *NB - 1; i++) {
